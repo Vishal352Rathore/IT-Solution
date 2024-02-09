@@ -1,0 +1,407 @@
+
+/* header start */
+
+.main_container{
+  overflow-x: hidden;
+}
+.wrap {
+  background: #090f35;
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.mob_icon{
+  display: none;
+}
+
+.close_icon{
+  display: none;
+
+}
+.logo_width{
+  width: 160px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+
+.logo_width img{
+  width: 100%;
+}
+
+.nav_design{
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  padding: 0.5rem 1rem;
+ margin-top: 30px;
+ margin-left: 20px;
+}
+
+.header_design{
+  height: 100px;
+  background-color: white;
+ margin-top: 80px;
+ margin-left: 110px;
+ width: 85%;
+}
+
+.nav_design li{
+  margin: 0px 20px;
+}
+.nav_design li a{
+  color: #05091f;
+ text-decoration: none;
+}
+.btn_design{
+
+height: 60px;
+ position: absolute;
+ right: 150px;
+ top:100px;
+}
+.btn_design_login{
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  right: 320px;
+  top:100px;
+}
+.progress__wrapper {
+  position: relative;
+}
+.progress__container {
+  background-color: white;
+  height: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+  transition: top 0.5s ease-in-out;
+}
+.progress-bar{
+  height: 10px;
+
+}
+.Marketing {
+  background: #60b0e2;
+  background: linear-gradient(135deg, #60b0e2 0%, #005fb8 100%);
+}
+
+.header_bg{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url(../images/it.jpg);
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header_contain{
+  position: absolute;
+  top: 35%;
+  left: 13.5%;
+}
+.header_contain p{
+  color: white;
+  font-size: 20px;
+}
+.header_contain h1{
+  color: white;
+ font-weight: 900;
+ font-size: 50px;
+}
+
+
+#login .container #login-row #login-column #login-box {
+
+  max-width: 600px;
+  height: 375px;
+  border: 1px solid #9C9C9C;
+  background-color:   #1e334b2d;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+/* header end */
+/* first .first_banner */
+
+.first_banner{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.first_banner h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px;
+}
+
+.first_banner h1 span{
+  color: blue;
+}
+  
+.first_banner p{
+  color: gray;
+  font-size: 20px;
+}
+
+.sec1_image{
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.sec1_image img{
+  width: 100%;
+  height: 100%;
+}
+
+.sec1_middle_image{
+ 
+  width: 360px;
+  height: 400px;
+}
+.sec1_middle_image img{
+ 
+  width: 100%;
+  height: 100%;
+}
+
+.sec1_data {
+  margin: 50px 0;
+  color: #fff;
+
+}
+.sec1_data h2{
+     font-weight: 500;
+     font-size: 40px;
+}
+.sec1_data h2 span{
+  color: #ee8c0c;
+}
+.column_align{
+  text-align: center;
+  position: relative;
+  top: 110px;
+}
+
+.sec1_image_width{
+  width: 100%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+.sec1_image_width:hover{
+  filter: grayscale(0%);
+  /* filter: gray; */
+  /* filter: none; */
+  transition: .5s ease;
+  }
+
+ .text strong.number {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.sec3_heading{
+
+  margin-top: 60px;
+  text-align: center;
+}
+.sec3_heading h2{
+   font-size: 40px;
+    font-weight: 700;
+}
+
+.sec3_heading h2 span{
+  color: blue;
+}
+
+.text span {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+.services {
+  background: #323edd;
+  padding: 20px;
+  position: relative;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.services:hover{
+  background: #ee8c0c;
+
+}
+
+ .icon {
+   width: 60px;
+   height: 60px;
+  line-height: 1.3;
+  position: relative;
+}
+
+.icon img{
+
+  width: 100%;
+  height: 100%;
+}
+
+ .media-body {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+/* cards start */
+.zoom {
+  width: 100%;
+  height: 100%;
+  transition: transform .8s;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.zoom:hover img {
+  transform: scale(1.5);
+}
+
+.cards_images_width{
+
+  width: 15rem;
+}
+
+/* cards ends */
+
+/* 
+frequently asked question */
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
+
+.bg-light {
+  background: #f8f9fa !important;
+}
+
+.ftco-faqs .myaccordion .btn {
+  width: 100%;
+  font-weight: 600;
+  color: black;
+  padding: 0;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  border-radius: 0 !important;
+  margin-bottom: 10px;
+  border-radius: 40px !important;
+  box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.21) !important;
+}
+.ftco-faqs button[aria-expanded="true"] {
+  background-color: #323edd;
+  color: #fff !important;
+}
+.freqently_ask, .blog-img, .user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+  width: 100%;
+  height: 369px;
+}
+.ftco-faqs .card-body {
+  background: #ffa41b;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 9px 8px -4px rgba(0, 0, 0, 0.21) !important;
+}
+
+
+
+/* frenqtenly ends */
+
+/* lower contact us */
+.img, .blog-img, .user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  padding: 50px;
+}
+
+.ftco-appointment {
+  background-position: top center !important;
+  position: relative;
+  background-attachment: fixed;
+}
+
+
+/* lower contact us end */
+/* footer start */
+.logo_width_footer{
+    width: 160px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+.logo_width_footer img{
+  width: 100%;
+  height: 100%;
+}
+
+.ftco-footer {
+  font-size: 16px;
+  background: #05091f;
+  padding: 7em 0;
+  z-index: 0;
+}
+.ftco-footer .ftco-footer-logo {
+  color: #323edd !important;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ftco-footer .ftco-footer-logo span {
+  color: #ffa41b;
+}
+
+.ftco-footer p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-unstyled li a {
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+
+/* foooter end */

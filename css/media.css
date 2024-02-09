@@ -1,0 +1,965 @@
+@media (min-width: 320px) and (max-width: 575px){
+
+  
+/* header start */
+.main_container{
+  overflow-x: hidden;
+}
+
+.wrap {
+  background: #090f35;
+  padding: 10px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: none;
+}
+
+.mob_icon {
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: 8%;
+  font-size: 33px;
+}
+
+.close_icon{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-size: 23px;
+}
+
+.logo_width{
+  width: 160px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.logo_width img{
+  width: 100%;
+}
+
+.nav_design{
+  height: 260px;
+  list-style-type: none;
+  display: block;
+  background-color: white;
+  position: relative;
+  padding: 0.5rem 1rem;
+ margin-top: 0px;
+ margin-left: 1px;
+ transform: translate(-240%) ;
+ right:  0;
+ z-index: 100;
+}
+
+.visible{
+  transform: translate(70%);
+}
+
+.header_design{
+  height: 60px;
+  background-color: white;
+ margin-top: 40px;
+ margin-left: 30px;
+ width: 85%;
+}
+
+.nav_design li{
+  margin: 12px 20px;
+  
+}
+.nav_design li a{
+  color: #05091f;
+ text-decoration: none;
+}
+
+.progress__wrapper {
+  position: relative;
+}
+.progress__container {
+  background-color: white;
+  height: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+  transition: top 0.5s ease-in-out;
+}
+.progress-bar{
+  height: 10px;
+
+}
+.Marketing {
+  background: #60b0e2;
+  background: linear-gradient(135deg, #60b0e2 0%, #005fb8 100%);
+}
+
+.header_bg{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url(../images/it.jpg);
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px;
+}
+
+.header_contain{
+  position: absolute;
+  top: 45%;
+  left: 11.5%;
+}
+.header_contain p{
+  color: white;
+  font-size: 15px;
+}
+.header_contain h1{
+  color: white;
+ font-weight: 400;
+ font-size: 25px;
+}
+
+.header_contain button{
+  padding: 4px !important;
+}
+
+.btn_design_login {
+  width:20%;
+  height: 40px;
+  position: absolute;
+  /* right: 420px; */
+  top: 116px;
+  left: 10%;
+}
+
+.btn_design {
+    height: 40px;
+    position: absolute;
+    left: 31%;
+    top: 116px;
+
+}
+
+#login .container #login-row #login-column #login-box {
+
+  max-width: 600px;
+  height: 375px;
+  border: 1px solid #9C9C9C;
+  background-color:   #1e334b2d;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+/* header end */
+.sec1_image {
+  width: 83px;
+  height: 83px;
+  margin: 0px auto;
+}
+
+.text strong.number {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.sec1_middle_image {
+  width: 250px;
+  height: 350px;
+  position: relative;
+  top: 5%;
+  margin: 0px auto;
+}
+
+.column_align {
+  text-align: center;
+  position: relative;
+  top: 27px;
+}
+.column_align h2{
+  font-size: 20px;
+}
+.column_align p{
+  font-size: 15px;
+}
+.first_banner h1 {
+  font-size: 26px;
+  font-weight: 500;
+  /* margin: 50px; */
+  margin: 20px 0px;
+}
+.first_banner p {
+  color: gray;
+  font-size: 13px;
+}
+
+.services {
+  width: 100%;
+  background: rgb(50, 62, 221);
+  padding: 20px;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+.services h3{
+  font-size: 25px;
+}
+.logo_width_footer {
+  width: 160px;
+ margin-left: 0px; 
+  margin-bottom: 35px;
+}
+.sec1_data{
+  margin: 0px;
+}
+.sec1_data h2 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.sec3_heading {
+  padding: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+.sec3_heading h2{
+  margin-bottom: 0px !important;
+ font-size: 26px;
+ font-weight: 500;
+}
+
+.cards_images_width{
+
+  width: 100% !important;
+}
+.ftco-section {
+  padding: 2em 0;
+  position: relative;
+}
+
+.heading-section{
+  margin: 0 !important;
+}
+
+.heading-section h2{
+
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.sec1_image_width{
+  width: 100%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+.sec1_image_width:hover{
+  filter: grayscale(0%);
+  /* filter: gray; */
+  /* filter: none; */
+  transition: .5s ease;
+  }
+
+/* cards start */
+.zoom {
+  width: 100%;
+  height: 100%;
+  transition: transform .8s;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.zoom:hover img {
+  transform: scale(1.5);
+}
+
+.cards_images_width{
+
+  width: 15rem;
+}
+
+/* cards ends */
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+  .main_container{
+    overflow-x: hidden;
+  }
+  
+  .wrap {
+    background: #090f35;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: none;
+  }
+  
+  .mob_icon {
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 8%;
+    font-size: 33px;
+  }
+  
+  .close_icon{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    font-size: 23px;
+  }
+  
+  .logo_width{
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .logo_width img{
+    width: 100%;
+  }
+  
+  .nav_design{
+    height: 260px;
+    list-style-type: none;
+    display: block;
+    background-color: white;
+    position: relative;
+    padding: 0.5rem 1rem;
+   margin-top: 0px;
+   margin-left: 1px;
+   transform: translate(-360%) ;
+   right:  0;
+   z-index: 100;
+  }
+  
+  .visible{
+    transform: translate(2%);
+  }
+
+  
+.header_design{
+  height: 60px;
+  background-color: white;
+ margin-top: 40px;
+ margin-left: 60px;
+ width: 83%;
+}
+
+.nav_design li{
+  margin: 12px 20px;
+  
+}
+.nav_design li a{
+  color: #05091f;
+ text-decoration: none;
+}
+
+.btn_design_login {
+  width:20%;
+  height: 40px;
+  position: absolute;
+  /* right: 420px; */
+  top: 116px;
+  left: 10%;
+}
+
+.btn_design {
+    height: 40px;
+    position: absolute;
+    left: 31%;
+    top: 116px;
+
+}
+
+.header_contain{
+  position: absolute;
+  top: 35%;
+  left: 11.5%;
+}
+.header_contain p{
+  color: white;
+  font-size: 15px;
+}
+.header_contain h1{
+  color: white;
+ font-weight: 900;
+ font-size: 28px;
+}
+
+.header_contain button{
+  padding: 4px !important;
+}
+
+.header_bg{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url(../images/it.jpg);
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px;
+}
+
+.first_banner h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+.column_align {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+   top: 0px;
+}
+.column_align h2{
+width: 100%;
+  font-size: 24px;
+}
+.sec1_middle_image {
+  width: 100%;
+  height: 100%;
+}
+.sec1_image {
+  width: 90px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.sec1_data {
+  margin: 0px 0;
+  color: #fff;
+}
+
+.sec1_data h2 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.text strong.number {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.sec3_heading h2 {
+  margin-bottom: 0px !important;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.services {
+  width: 100%;
+  background: rgb(50, 62, 221);
+  padding: 20px;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+
+.ftco-section {
+  padding: 2em 0;
+  position: relative;
+}
+.sec1_image_width{
+  width: 100%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+.sec1_image_width:hover{
+  filter: grayscale(0%);
+  /* filter: gray; */
+  /* filter: none; */
+  transition: .5s ease;
+  }
+
+/* cards start */
+.zoom {
+  width: 100%;
+  height: 100%;
+  transition: transform .8s;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.zoom:hover img {
+  transform: scale(1.5);
+}
+
+.cards_images_width{
+
+  width: 15rem;
+}
+
+/* cards ends */
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+  .main_container{
+    overflow-x: hidden;
+  }
+  
+  .wrap {
+    background: #090f35;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: none;
+  }
+  
+  .mob_icon {
+    display: block;
+    position: absolute;
+    right: 13%;
+    top: 8%;
+    font-size: 33px;
+  }
+  
+  .close_icon{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    font-size: 23px;
+  }
+  
+  .logo_width{
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .logo_width img{
+    width: 100%;
+  }
+  
+  .nav_design{
+    height: 260px;
+    list-style-type: none;
+    display: block;
+    background-color: white;
+    position: relative;
+    padding: 0.5rem 1rem;
+   margin-top: 0px;
+   margin-left: 1px;
+   transform: translate(-600%) ;
+   right:  0;
+   z-index: 100;
+  }
+  
+  .visible{
+    transform: translate(2%);
+  }
+
+  
+.header_design{
+  height: 60px;
+  background-color: white;
+ margin-top: 40px;
+ margin-left: 60px;
+ width: 83%;
+}
+
+.nav_design li{
+  margin: 12px 20px;
+  
+}
+.nav_design li a{
+  color: #05091f;
+ text-decoration: none;
+}
+
+.btn_design_login {
+  width:20%;
+  height: 40px;
+  position: absolute;
+  /* right: 420px; */
+  top: 136px;
+  left: 10%;
+}
+
+.btn_design {
+    height: 40px;
+    position: absolute;
+    left: 31%;
+    top: 136px;
+
+}
+
+.header_contain{
+  position: absolute;
+  top: 35%;
+  left: 11.5%;
+}
+.header_contain p{
+  color: white;
+  font-size: 15px;
+}
+.header_contain h1{
+  color: white;
+ font-weight: 900;
+ font-size: 28px;
+}
+
+.header_contain button{
+  padding: 4px !important;
+}
+
+.header_bg{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url(../images/it.jpg);
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px;
+}
+
+.first_banner h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+.column_align {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+   top: 0px;
+}
+.column_align h2{
+width: 100%;
+  font-size: 24px;
+}
+.sec1_middle_image {
+  width: 100%;
+  height: 100%;
+}
+.sec1_image {
+  width: 90px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.sec1_data {
+  margin: 0px 0;
+  color: #fff;
+}
+
+.sec1_data h2 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.text strong.number {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.sec3_heading h2 {
+  margin-bottom: 0px !important;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.services {
+  width: 100%;
+  background: rgb(50, 62, 221);
+  padding: 20px;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+
+.ftco-section {
+  padding: 2em 0;
+  position: relative;
+}
+
+
+
+.sec1_image_width{
+  width: 100%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+.sec1_image_width:hover{
+  filter: grayscale(0%);
+  /* filter: gray; */
+  /* filter: none; */
+  transition: .5s ease;
+  }
+/* cards start */
+.zoom {
+  width: 100%;
+  height: 100%;
+  transition: transform .8s;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.zoom:hover img {
+  transform: scale(1.5);
+}
+
+.cards_images_width{
+
+  width: 100%;
+}
+
+/* cards ends */
+
+
+}
+
+
+
+
+@media (min-width: 991px) and (max-width: 1199px){
+
+  .main_container{
+    overflow-x: hidden;
+  }
+  
+  .wrap {
+    background: #090f35;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: none;
+  }
+  
+  .mob_icon {
+    display: block;
+    position: absolute;
+    right: 13%;
+    top: 6%;
+    font-size: 33px;
+  }
+  
+  .close_icon{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    font-size: 23px;
+  }
+  
+  .logo_width{
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .logo_width img{
+    width: 100%;
+  }
+  
+  .nav_design{
+    height: 260px;
+    list-style-type: none;
+    display: block;
+    background-color: white;
+    position: relative;
+    padding: 0.5rem 1rem;
+   margin-top: 0px;
+   margin-left: 1px;
+   transform: translate(-600%) ;
+   right:  0;
+   z-index: 100;
+  }
+  
+  .visible{
+    transform: translate(2%);
+  }
+
+  
+.header_design{
+  height: 60px;
+  background-color: white;
+ margin-top: 40px;
+ margin-left: 101px;
+ width: 83%;
+}
+
+.nav_design li{
+  margin: 12px 20px;
+  
+}
+.nav_design li a{
+  color: #05091f;
+ text-decoration: none;
+}
+
+.btn_design_login {
+  width:20%;
+  height: 50px;
+  position: absolute;
+  /* right: 420px; */
+  top: 175px;
+  left: 10%;
+}
+
+.btn_design {
+    height: 50px;
+    position: absolute;
+    left: 31%;
+    top: 175px;
+
+}
+
+.header_contain{
+  position: absolute;
+  top: 45%;
+  left: 11.5%;
+}
+.header_contain p{
+  color: white;
+  font-size: 24px;
+}
+.header_contain h1{
+  color: white;
+ font-weight: 900;
+ font-size: 36px;
+}
+
+.header_contain button{
+  padding: 13px !important;
+}
+
+.header_bg{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url(../images/it.jpg);
+  height: 813px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px;
+}
+
+.first_banner h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+.column_align {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+   top: 0px;
+}
+.column_align h2{
+width: 100%;
+  font-size: 24px;
+}
+.sec1_middle_image {
+  width: 100%;
+  height: 100%;
+}
+.sec1_image {
+  width: 90px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.sec1_data {
+  margin: 0px 0;
+  color: #fff;
+}
+
+.sec1_data h2 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.text strong.number {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.sec3_heading h2 {
+  margin-bottom: 0px !important;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.services {
+  width: 100%;
+  background: rgb(50, 62, 221);
+  padding: 20px;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+
+.ftco-section {
+  padding: 2em 0;
+  position: relative;
+}
+
+
+
+.sec1_image_width{
+  width: 100%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+.sec1_image_width:hover{
+  filter: grayscale(0%);
+  /* filter: gray; */
+  /* filter: none; */
+  transition: .5s ease;
+  }
+/* cards start */
+.zoom {
+  width: 100%;
+  height: 100%;
+  transition: transform .8s;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.zoom:hover img {
+  transform: scale(1.5);
+}
+
+.cards_images_width{
+
+  width: 100%;
+}
+
+/* cards ends */
+
+
+}

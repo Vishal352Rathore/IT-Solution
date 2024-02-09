@@ -1,0 +1,1081 @@
+ 
+ @media (min-width: 320px) and (max-width: 575px)
+ {
+ /* header start */
+ body{
+  overflow-x: hidden;
+
+ }
+ .main_container{
+
+    overflow-x: hidden;
+ }
+ 
+.wrap {
+    background: #090f35;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: none;
+  }
+  
+ 
+.mob_icon {
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: 8%;
+  font-size: 33px;
+}
+
+.close_icon{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-size: 23px;
+}
+
+.logo_width{
+  width: 160px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.logo_width img{
+  width: 100%;
+}
+
+.nav_design{
+  height: 260px;
+  list-style-type: none;
+  display: block;
+  background-color: white;
+  position: relative;
+  padding: 0.5rem 1rem;
+ margin-top: 0px;
+ margin-left: 1px;
+ transform: translate(-240%) ;
+ right:  0;
+ z-index: 100;
+}
+
+.visible{
+  transform: translate(2%);
+
+}
+.header_design{
+  height: 60px;
+  background-color: white;
+ margin-top: 40px;
+ margin-left: 0px;
+ width: 96%;
+}
+
+.nav_design li{
+  margin: 12px 20px;
+  
+}
+.nav_design li a{
+  color: #05091f;
+ text-decoration: none;
+}
+  .btn_design{
+  
+  height: 60px;
+   position: absolute;
+   right: 250px;
+   top:100px;
+  }
+  .btn_design_login{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    right: 420px;
+   top:100px;
+  }
+
+  
+  .header_bg{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/this.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-attachment: fixed;
+  }
+  
+  .header_contain{
+    position: absolute;
+    top: 35%;
+    left: 11.5%;
+  }
+  .header_contain p{
+   color: white;
+    font-size: 20px;
+  }
+  .header_contain h1{
+    color: white;
+   font-weight: 900;
+   font-size: 50px;
+  }
+  .contact_data h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    line-height: 1;
+    display: inline;
+    border-bottom: 5px solid white;
+}
+
+.contact_data{
+width: 100%;
+padding-top:140px;
+padding-left: 0px;
+background-attachment: inherit;
+}
+
+.btn_design_login {
+  width:20%;
+  height: 40px;
+  position: absolute;
+  /* right: 420px; */
+  top: 130px;
+  left: 10%;
+}
+
+.btn_design {
+    height: 40px;
+    position: absolute;
+    left: 31%;
+    top: 130px;
+
+}
+
+.how_content {
+  text-align: center;
+  margin-top: 55px ;
+  margin-bottom: 50px;
+}
+
+.card_width{
+  width: 100%; height: 27rem;   box-shadow: 1px 1px  grey;
+}
+
+.belief_data h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 70px;
+  margin-left: 46px;
+}
+
+.belief_data button {
+  margin-top: 30px;
+  margin-left: 46px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+
+
+.how_content h4 {
+  --text-opacity: 1;
+  color: blue;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.how_content h2{
+
+font-size: 20px;
+
+}
+
+
+.how_content h1 { 
+  background-color: blue;
+
+  background: linear-gradient(to right, #007bff, #196896,#72cbff);
+
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
+ margin-bottom: 20px;
+ font-size: 26px;
+}
+.how_image{
+
+  text-align: center;
+}
+
+.how_images{
+
+  margin-bottom: 35px;
+}
+
+/* our vision */
+.vision-header {
+  background: linear-gradient(to right, #007bff, #66aad1,#72cbff);
+  /* background: url(../img/vsion-header-bg.jpg) 0 0/cover no-repeat rgba(0, 0, 0, 0); */
+  display: table;
+  float: left;
+  height: 285px;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.title-header-content {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.vision-header .title-header-content h1 {
+  color: #fff;
+  float: left;
+  font-family: proxima_novaregular;
+  font-size: 34px;
+  margin: 0 0 15px;
+  width: 100%;
+}
+
+.vision-header .title-header-content p {
+  color: #fff;
+  display: inline-block;
+  float: none;
+  font-family: proxima_novaregular;
+  font-size: 16px;
+  max-width: 1008px;
+  width: 100%;
+}
+/* our viosn ends */
+
+
+ /* our mission start */
+ .vision-content {
+  float: left;
+  padding: 35px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.vision-content h2 {
+  float: left;
+  font-family: proxima_novasemibold;
+  font-size: 34px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.vision-content h2 span {
+  color: #6a7071;
+  float: left;
+  font-family: proxima_novalight;
+  font-size: 24px;
+  margin: 10px 0;
+  text-transform: none;
+  width: 100%;
+}
+
+.vision-content p {
+  color: #6a7071;
+  display: inline-block;
+  float: none;
+  font-family: proxima_novalight;
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 1000px;
+  text-align: center;
+  width: 100%;
+}
+
+.vision-block {
+background: #007bff;
+  border-radius: 10px;
+  float: left;
+  padding: 20px 15px;
+  width: 100%;
+  margin: 35px 0 0;
+}
+
+.vision-block>figure {
+  float: left;
+  height: 250px;
+  text-align: center;
+  width: 100%;
+}
+.vision-block figcaption {
+  float: left;
+  width: 100%;
+}
+
+.vision-block figcaption h3 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.vision-content .vision-block p {
+  color: #fff;
+  float: left;
+  font-family: proxima_novaregular;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+}
+/* our mission ends */
+
+
+.cards_height {
+  margin: 23px 0px;
+}
+
+.card_width {
+  width: 100%;
+  height: 25rem;
+  box-shadow: 1px 1px grey;
+}
+
+.belief_data h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 70px;
+  margin-left: 46px;
+}
+ }
+
+
+ @media (min-width: 576px) and (max-width: 767px)
+ {
+ /* header start */
+ body{
+  overflow-x: hidden;
+
+ }
+ .main_container{
+
+    overflow-x: hidden;
+ }
+ 
+.wrap {
+    background: #090f35;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: none;
+  }
+  
+ 
+.mob_icon {
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: 8%;
+  font-size: 33px;
+}
+
+.close_icon{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-size: 23px;
+}
+
+.logo_width{
+  width: 160px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.logo_width img{
+  width: 100%;
+}
+
+.nav_design{
+  height: 260px;
+  list-style-type: none;
+  display: block;
+  background-color: white;
+  position: relative;
+  padding: 0.5rem 1rem;
+ margin-top: 0px;
+ margin-left: 1px;
+ transform: translate(-240%) ;
+ right:  0;
+ z-index: 100;
+}
+
+.visible{
+  transform: translate(2%);
+
+}
+.header_design{
+  height: 60px;
+  background-color: white;
+ margin-top: 40px;
+ margin-left: 0px;
+ width: 96%;
+}
+
+.nav_design li{
+  margin: 12px 20px;
+  
+}
+.nav_design li a{
+  color: #05091f;
+ text-decoration: none;
+}
+  .btn_design{
+  
+  height: 60px;
+   position: absolute;
+   right: 250px;
+   top:100px;
+  }
+  .btn_design_login{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    right: 420px;
+   top:100px;
+  }
+
+  
+  .header_bg{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/this.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-attachment: fixed;
+  }
+  
+  .header_contain{
+    position: absolute;
+    top: 35%;
+    left: 11.5%;
+  }
+  .header_contain p{
+   color: white;
+    font-size: 20px;
+  }
+  .header_contain h1{
+    color: white;
+   font-weight: 900;
+   font-size: 50px;
+  }
+  .contact_data h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    line-height: 1;
+    display: inline;
+    border-bottom: 5px solid white;
+}
+
+.contact_data{
+width: 100%;
+padding-top:140px;
+padding-left: 0px;
+background-attachment: inherit;
+}
+
+.btn_design_login {
+  width:20%;
+  height: 40px;
+  position: absolute;
+  /* right: 420px; */
+  top: 130px;
+  left: 10%;
+}
+
+.btn_design {
+    height: 40px;
+    position: absolute;
+    left: 31%;
+    top: 130px;
+
+}
+
+.how_content {
+  text-align: center;
+  margin-top: 55px ;
+  margin-bottom: 50px;
+}
+
+.card_width{
+  width: 100%; height: 27rem;   box-shadow: 1px 1px  grey;
+}
+
+.belief_data h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 70px;
+  margin-left: 46px;
+}
+
+.belief_data button {
+  margin-top: 30px;
+  margin-left: 46px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+
+
+.how_content h4 {
+  --text-opacity: 1;
+  color: blue;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.how_content h2{
+
+font-size: 20px;
+
+}
+
+
+.how_content h1 { 
+  background-color: blue;
+
+  background: linear-gradient(to right, #007bff, #196896,#72cbff);
+
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
+ margin-bottom: 20px;
+ font-size: 26px;
+}
+.how_image{
+
+  text-align: center;
+}
+
+.how_images{
+
+  margin-bottom: 35px;
+}
+
+/* our vision */
+.vision-header {
+  background: linear-gradient(to right, #007bff, #66aad1,#72cbff);
+  /* background: url(../img/vsion-header-bg.jpg) 0 0/cover no-repeat rgba(0, 0, 0, 0); */
+  display: table;
+  float: left;
+  height: 285px;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.title-header-content {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.vision-header .title-header-content h1 {
+  color: #fff;
+  float: left;
+  font-family: proxima_novaregular;
+  font-size: 34px;
+  margin: 0 0 15px;
+  width: 100%;
+}
+
+.vision-header .title-header-content p {
+  color: #fff;
+  display: inline-block;
+  float: none;
+  font-family: proxima_novaregular;
+  font-size: 16px;
+  max-width: 1008px;
+  width: 100%;
+}
+/* our viosn ends */
+
+
+ /* our mission start */
+ .vision-content {
+  float: left;
+  padding: 35px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.vision-content h2 {
+  float: left;
+  font-family: proxima_novasemibold;
+  font-size: 34px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.vision-content h2 span {
+  color: #6a7071;
+  float: left;
+  font-family: proxima_novalight;
+  font-size: 24px;
+  margin: 10px 0;
+  text-transform: none;
+  width: 100%;
+}
+
+.vision-content p {
+  color: #6a7071;
+  display: inline-block;
+  float: none;
+  font-family: proxima_novalight;
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 1000px;
+  text-align: center;
+  width: 100%;
+}
+
+.vision-block {
+background: #007bff;
+  border-radius: 10px;
+  float: left;
+  padding: 20px 15px;
+  width: 100%;
+  margin: 35px 0 0;
+}
+
+.vision-block>figure {
+  float: left;
+  height: 250px;
+  text-align: center;
+  width: 100%;
+}
+.vision-block figcaption {
+  float: left;
+  width: 100%;
+}
+
+.vision-block figcaption h3 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.vision-content .vision-block p {
+  color: #fff;
+  float: left;
+  font-family: proxima_novaregular;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+}
+/* our mission ends */
+
+
+.cards_height {
+  margin: 23px 0px;
+}
+
+.card_width {
+  width: 100%;
+  height: 25rem;
+  box-shadow: 1px 1px grey;
+}
+
+.belief_data h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 70px;
+  margin-left: 46px;
+}
+ }
+
+ @media (min-width: 768px) and (max-width: 991px)
+ {
+ /* header start */
+ body{
+  overflow-x: hidden;
+
+ }
+ .main_container{
+
+    overflow-x: hidden;
+ }
+ 
+.wrap {
+    background: #090f35;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: none;
+  }
+  
+ 
+.mob_icon {
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: 8%;
+  font-size: 33px;
+}
+
+.close_icon{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-size: 23px;
+}
+
+.logo_width{
+  width: 160px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.logo_width img{
+  width: 100%;
+}
+
+.nav_design{
+  height: 260px;
+  list-style-type: none;
+  display: block;
+  background-color: white;
+  position: relative;
+  padding: 0.5rem 1rem;
+ margin-top: 0px;
+ margin-left: 1px;
+ transform: translate(-240%) ;
+ right:  0;
+ z-index: 100;
+}
+
+.visible{
+  transform: translate(2%);
+
+}
+.header_design{
+  height: 60px;
+  background-color: white;
+ margin-top: 40px;
+ margin-left: 0px;
+ width: 96%;
+}
+
+.nav_design li{
+  margin: 12px 20px;
+  
+}
+.nav_design li a{
+  color: #05091f;
+ text-decoration: none;
+}
+  .btn_design{
+  
+  height: 60px;
+   position: absolute;
+   right: 250px;
+   top:100px;
+  }
+  .btn_design_login{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    right: 420px;
+   top:100px;
+  }
+
+  
+  .header_bg{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/this.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-attachment: fixed;
+  }
+  
+  .header_contain{
+    position: absolute;
+    top: 35%;
+    left: 11.5%;
+  }
+  .header_contain p{
+   color: white;
+    font-size: 20px;
+  }
+  .header_contain h1{
+    color: white;
+   font-weight: 900;
+   font-size: 50px;
+  }
+  .contact_data h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    line-height: 1;
+    display: inline;
+    border-bottom: 5px solid white;
+}
+
+.contact_data{
+width: 100%;
+padding-top:140px;
+padding-left: 0px;
+background-attachment: inherit;
+}
+
+.btn_design_login {
+  width:20%;
+  height: 40px;
+  position: absolute;
+  /* right: 420px; */
+  top: 130px;
+  left: 10%;
+}
+
+.btn_design {
+    height: 40px;
+    position: absolute;
+    left: 31%;
+    top: 130px;
+
+}
+
+.how_content {
+  text-align: center;
+  margin-top: 55px ;
+  margin-bottom: 50px;
+}
+
+.card_width{
+  width: 100%; height: 27rem;   box-shadow: 1px 1px  grey;
+}
+
+.belief_data h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 70px;
+  margin-left: 46px;
+}
+
+.belief_data button {
+  margin-top: 30px;
+  margin-left: 46px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+
+
+.how_content h4 {
+  --text-opacity: 1;
+  color: blue;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.how_content h2{
+
+font-size: 20px;
+
+}
+
+
+.how_content h1 { 
+  background-color: blue;
+
+  background: linear-gradient(to right, #007bff, #196896,#72cbff);
+
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
+ margin-bottom: 20px;
+ font-size: 26px;
+}
+.how_image{
+
+  text-align: center;
+}
+
+.how_images{
+
+  margin-bottom: 35px;
+}
+
+/* our vision */
+.vision-header {
+  background: linear-gradient(to right, #007bff, #66aad1,#72cbff);
+  /* background: url(../img/vsion-header-bg.jpg) 0 0/cover no-repeat rgba(0, 0, 0, 0); */
+  display: table;
+  float: left;
+  height: 285px;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.title-header-content {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.vision-header .title-header-content h1 {
+  color: #fff;
+  float: left;
+  font-family: proxima_novaregular;
+  font-size: 34px;
+  margin: 0 0 15px;
+  width: 100%;
+}
+
+.vision-header .title-header-content p {
+  color: #fff;
+  display: inline-block;
+  float: none;
+  font-family: proxima_novaregular;
+  font-size: 16px;
+  max-width: 1008px;
+  width: 100%;
+}
+/* our viosn ends */
+
+
+ /* our mission start */
+ .vision-content {
+  float: left;
+  padding: 35px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.vision-content h2 {
+  float: left;
+  font-family: proxima_novasemibold;
+  font-size: 34px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.vision-content h2 span {
+  color: #6a7071;
+  float: left;
+  font-family: proxima_novalight;
+  font-size: 24px;
+  margin: 10px 0;
+  text-transform: none;
+  width: 100%;
+}
+
+.vision-content p {
+  color: #6a7071;
+  display: inline-block;
+  float: none;
+  font-family: proxima_novalight;
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 1000px;
+  text-align: center;
+  width: 100%;
+}
+
+.vision-block {
+background: #007bff;
+  border-radius: 10px;
+  float: left;
+  padding: 20px 15px;
+  width: 100%;
+  margin: 35px 0 0;
+}
+
+.vision-block>figure {
+  float: left;
+  height: 250px;
+  text-align: center;
+  width: 100%;
+}
+.vision-block figcaption {
+  float: left;
+  width: 100%;
+}
+
+.vision-block figcaption h3 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.vision-content .vision-block p {
+  color: #fff;
+  float: left;
+  font-family: proxima_novaregular;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+}
+/* our mission ends */
+
+
+.cards_height {
+  margin: 23px 0px;
+}
+
+.card_width {
+  width: 100%;
+  height: 25rem;
+  box-shadow: 1px 1px grey;
+}
+
+.belief_data h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 70px;
+  margin-left: 46px;
+}
+ }

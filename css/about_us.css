@@ -1,0 +1,435 @@
+ /* header start */
+ .main_container{
+
+    overflow-x: hidden;
+ }
+ 
+.wrap {
+    background: #090f35;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+  
+  .mob_icon{
+    display: none;
+  }
+  
+  .close_icon{
+    display: none;
+  }
+  
+  .logo_width{
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  
+  
+  .logo_width img{
+    width: 100%;
+  }
+  
+  .nav_design{
+    height: 40px;
+    list-style-type: none;
+    display: flex;
+    padding: 0.5rem 1rem;
+   margin-top: 30px;
+   margin-left: 20px;
+   
+  }
+  
+  .header_design{
+    height: 100px;
+    background-color: white;
+   margin-top: 80px;
+   margin-left: 110px;
+   width: 85%;
+  }
+  
+  .nav_design li{
+  
+    margin: 0px 20px;
+  }
+
+  .nav_design li a{
+    color: #05091f;
+   text-decoration: none;
+  }
+  .btn_design{
+  
+  height: 60px;
+   position: absolute;
+   right: 150px;
+   top:100px;
+  }
+  .btn_design_login{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    right: 320px;
+   top:100px;
+  }
+
+  
+  .header_bg{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/this.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-attachment: fixed;
+  }
+  
+  .header_contain{
+    position: absolute;
+    top: 35%;
+    left: 11.5%;
+  }
+  .header_contain p{
+   color: white;
+    font-size: 20px;
+  }
+  .header_contain h1{
+    color: white;
+   font-weight: 900;
+   font-size: 50px;
+  }
+  .contact_data h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    line-height: 1;
+    display: inline;
+    border-bottom: 5px solid white;
+}
+
+.contact_data{
+width: 100%;
+padding-top: 100px;
+padding-left: 150px;
+background-attachment: inherit;
+
+/* box-shadow: 0 0 10px rgb(0 0 0 / 60%); */
+
+}
+
+#login .container #login-row #login-column #login-box {
+
+  max-width: 600px;
+  height: 375px;
+  border: 1px solid #9C9C9C;
+  background-color:   #1e334b2d;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+  /* header end */
+
+  /* <!-- HOW WE DO THIS --> */
+
+
+  .how_content h4 {
+    --text-opacity: 1;
+    color: blue;
+    margin-bottom: 30px;
+}
+.how_content{
+
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+.how_content h1 { 
+    background-color: blue;
+  
+    background: linear-gradient(to right, #007bff, #196896,#72cbff);
+
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+   margin-bottom: 20px;
+}
+.how_image{
+
+    text-align: center;
+}
+
+.how_images{
+
+    margin-bottom: 100px;
+}
+
+/* how ends */
+/* our vision */
+.vision-header {
+    background: linear-gradient(to right, #007bff, #66aad1,#72cbff);
+    /* background: url(../img/vsion-header-bg.jpg) 0 0/cover no-repeat rgba(0, 0, 0, 0); */
+    display: table;
+    float: left;
+    height: 285px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.title-header-content {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.vision-header .title-header-content h1 {
+    color: #fff;
+    float: left;
+    font-family: proxima_novaregular;
+    font-size: 50px;
+    margin: 0 0 15px;
+    width: 100%;
+}
+
+.vision-header .title-header-content p {
+    color: #fff;
+    display: inline-block;
+    float: none;
+    font-family: proxima_novaregular;
+    font-size: 20px;
+    max-width: 1008px;
+    width: 100%;
+}
+
+
+
+/* our viosn ends */
+
+
+
+ /* our mission start */
+ .vision-content {
+    float: left;
+    padding: 75px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.vision-content h2 {
+    float: left;
+    font-family: proxima_novasemibold;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.vision-content h2 span {
+    color: #6a7071;
+    float: left;
+    font-family: proxima_novalight;
+    font-size: 30px;
+    margin: 10px 0;
+    text-transform: none;
+    width: 100%;
+}
+
+.vision-content p {
+    color: #6a7071;
+    display: inline-block;
+    float: none;
+    font-family: proxima_novalight;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 1000px;
+    text-align: center;
+    width: 100%;
+}
+
+.vision-block {
+  background: #007bff;
+    border-radius: 10px;
+    float: left;
+    padding: 20px 15px;
+    width: 100%;
+    margin: 35px 0 0;
+}
+
+.vision-block>figure {
+    float: left;
+    height: 250px;
+    text-align: center;
+    width: 100%;
+}
+.vision-block figcaption {
+    float: left;
+    width: 100%;
+}
+
+.vision-block figcaption h3 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.vision-content .vision-block p {
+    color: #fff;
+    float: left;
+    font-family: proxima_novaregular;
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+}
+ /* our mission ends */
+
+  /* cards section start */
+.alignment_box{
+margin-top: 200px;
+}
+
+.first_sec_heading h2{
+    padding-right: 15px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.cards_height{
+ 
+    margin: 50px 0px ;
+ 
+}
+.card_body_align p.status{
+    color: grey;
+    text-align: center;
+
+}
+
+  .cards_images_width{
+
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    margin-top: 20px;
+
+  }
+  .cards_images_width img{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+  }
+  .card_body_align h5{
+      text-align: center;
+  }
+ 
+  .card_body_align p{
+    text-align: center;
+    
+}
+.card_width{
+  width: 22rem; height: 27rem;   box-shadow: 1px 1px  grey;
+}
+
+  /* cards section ends */
+
+  /* OURR BELIEF */
+  .belief{
+      width: 100%; 
+  }
+  .belief img{
+    width: 100%;
+
+}
+
+.crack{
+  background-color: #007bff;
+  width: 100%;
+
+}
+.belief_data{
+    color: white;
+    width: 100%;
+
+}
+
+    
+    .belief img:hover{
+    filter: gray;
+    filter: none;
+    transition: 1s ease;
+    }
+
+.belief_data h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+.belief_data button{
+    margin-top: 30px;
+    margin-left: 130px;
+    padding: 15px;
+    background-color: white;
+}
+
+
+/* OUR BELIEF ENDS */
+  /* footer start */
+
+.ftco-footer {
+    font-size: 16px;
+    background: #05091f;
+    padding: 7em 0;
+    z-index: 0;
+  }
+  .ftco-footer .ftco-footer-logo {
+    color: #323edd !important;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .ftco-footer .ftco-footer-logo span {
+    color: #ffa41b;
+  }
+  
+  .ftco-footer p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .list-unstyled li a {
+    color: rgba(255, 255, 255, 0.7);
+  
+  }
+  
+  
+  /* foooter end */
